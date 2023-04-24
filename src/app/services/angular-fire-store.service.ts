@@ -44,6 +44,4 @@ export class AngularFireStoreService {
   delete(id: string): Promise<void> {
     return this.codeSnippetsRef.doc(id).delete();
   }
-
-
 }
