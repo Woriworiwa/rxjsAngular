@@ -1,20 +1,6 @@
 {
   "hosting": [
     {
-      "public": "dist/rxjs-angular",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    },
-    {
       "target": "rxjsAngular",
       "public": "dist/rxjs-angular",
       "ignore": [
