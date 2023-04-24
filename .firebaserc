@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "rxjsangular"
+  },
+  "targets": {
+    "rxjsangular": {
+      "hosting": {
+        "rxjsAngular": [
+          "rxjsangular"
+        ]
+      }
+    }
   }
 }
